@@ -7,8 +7,8 @@
 //
 
 #import "MasterViewController.h"
-
 #import "DetailViewController.h"
+#import "FoodStore.h"
 
 @interface MasterViewController () {
     NSMutableArray *_objects;
@@ -17,6 +17,7 @@
 
 @implementation MasterViewController
 
+@synthesize stores = _stores;
 
 - (void)awakeFromNib
 {
@@ -31,6 +32,10 @@
 
     UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
     self.navigationItem.rightBarButtonItem = addButton;
+    // Load stores array with stores.plist
+    NSString *plistPath = [[NSBundle mainBundle] pathForResource:@"stores" ofType:@"plist"];
+    self.stores = [[NSMutableArray arrayWithContentsOfFile:plistPath] copy];
+    self.title = @"Order Food";
 }
 
 - (void)viewDidUnload
@@ -41,7 +46,7 @@
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+    return YES;
 }
 
 - (void)insertNewObject:(id)sender
@@ -63,15 +68,16 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return _objects.count;
+    return _stores.count;
 }
 
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+- (UITableViewCell *)tableView:(UITableView *)tableView
+         cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
-
-    NSDate *object = [_objects objectAtIndex:indexPath.row];
-    cell.textLabel.text = [object description];
+    UITableViewCell *cell = [tableView
+                             dequeueReusableCellWithIdentifier:@"Cell"];
+    cell.textLabel.text = [[self.stores objectAtIndex:indexPath.row] valueForKey:@"name"];
+    cell.detailTextLabel.text = [[self.stores objectAtIndex:indexPath.row] valueForKey:@"category"];
     return cell;
 }
 
@@ -109,11 +115,17 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    if ([[segue identifier] isEqualToString:@"showDetail"]) {
-        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-        NSDate *object = [_objects objectAtIndex:indexPath.row];
-        [[segue destinationViewController] setDetailItem:object];
-    }
+    DetailViewController *detailController = segue.destinationViewController;
+    
+    NSDictionary *storeDic = [self.stores objectAtIndex:self.tableView.indexPathForSelectedRow.row];
+    NSString *category = [storeDic valueForKey:@"category"];
+    NSString *name = [storeDic valueForKey:@"name"];
+    NSString *area = [storeDic valueForKey:@"area"];
+    NSString *phone = [storeDic valueForKey:@"phone"];
+    NSString *prices = [storeDic valueForKey:@"prices"];
+    NSString *url_menu = [storeDic valueForKey:@"url_menu"];
+    FoodStore *store = [[FoodStore alloc] initWithCategory:category name:name area:area phone:phone prices:prices url_menu:url_menu];
+    detailController.detailItem = store;
 }
 
 @end

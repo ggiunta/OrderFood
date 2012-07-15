@@ -7,6 +7,8 @@
 //
 
 #import "DetailViewController.h"
+#import "MasterViewController.h"
+#import "FoodStore.h"
 
 @interface DetailViewController ()
 - (void)configureView;
@@ -15,7 +17,13 @@
 @implementation DetailViewController
 
 @synthesize detailItem = _detailItem;
-@synthesize detailDescriptionLabel = _detailDescriptionLabel;
+@synthesize storeName = _storeName;
+@synthesize storeCategory = _storeCategory;
+@synthesize storeArea = _storeArea;
+@synthesize storePrices = _storePrices;
+@synthesize storePhone = _storePhone;
+@synthesize foodStoreLogo = _foodStoreLogo;
+@synthesize callStoreLogo = _callStoreLogo;
 
 #pragma mark - Managing the detail item
 
@@ -34,7 +42,13 @@
     // Update the user interface for the detail item.
 
     if (self.detailItem) {
-        self.detailDescriptionLabel.text = [self.detailItem description];
+        self.storeName.text = self.detailItem.name;
+        self.storeCategory.text = [NSString stringWithFormat: @"Category: %@", self.detailItem.category];
+        self.storeArea.text = [NSString stringWithFormat: @"Area: %@", self.detailItem.area];
+        self.storePrices.text = [NSString stringWithFormat: @"Prices: %@", self.detailItem.prices];
+        self.storePhone.text = self.detailItem.phone;
+        self.foodStoreLogo.image = [UIImage imageNamed:@"foodGeneric.jpeg"];
+        self.callStoreLogo.image = [UIImage imageNamed:@"callGeneric.png"];
     }
 }
 
@@ -43,13 +57,20 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     [self configureView];
+    self.title = self.detailItem.name;
 }
 
 - (void)viewDidUnload
 {
+    [self setStoreName:nil];
+    [self setStoreCategory:nil];
+    [self setStoreArea:nil];
+    [self setStorePrices:nil];
+    [self setStorePhone:nil];
+    [self setFoodStoreLogo:nil];
+    [self setCallStoreLogo:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
-    self.detailDescriptionLabel = nil;
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
@@ -57,4 +78,14 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
+-(IBAction)goToWebMenu:(id)sender {
+    NSString* launchUrl = self.detailItem.url_menu;
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:launchUrl]];
+}
+
+
+- (IBAction)callStore:(id)sender {
+    NSString *phone = [NSString stringWithFormat: @"tel://%@", self.detailItem.phone];
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:phone]];
+}
 @end

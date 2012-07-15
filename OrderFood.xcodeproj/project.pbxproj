@@ -16,6 +16,10 @@
 		E6039CC115B266BB00F0EB36 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6039CBF15B266BB00F0EB36 /* MainStoryboard.storyboard */; };
 		E6039CC415B266BB00F0EB36 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6039CC315B266BB00F0EB36 /* MasterViewController.m */; };
 		E6039CC715B266BB00F0EB36 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6039CC615B266BB00F0EB36 /* DetailViewController.m */; };
+		E6039CD115B2680500F0EB36 /* FoodStore.m in Sources */ = {isa = PBXBuildFile; fileRef = E6039CD015B2680500F0EB36 /* FoodStore.m */; };
+		E6039CD315B269B800F0EB36 /* stores.plist in Resources */ = {isa = PBXBuildFile; fileRef = E6039CD215B269B800F0EB36 /* stores.plist */; };
+		E6039CD515B2B05B00F0EB36 /* foodGeneric.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E6039CD415B2B05B00F0EB36 /* foodGeneric.jpeg */; };
+		E6039CD715B2B3A800F0EB36 /* callGeneric.png in Resources */ = {isa = PBXBuildFile; fileRef = E6039CD615B2B3A800F0EB36 /* callGeneric.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,17 +27,22 @@
 		E6039CAD15B266BB00F0EB36 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E6039CAF15B266BB00F0EB36 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E6039CB115B266BB00F0EB36 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E6039CB515B266BB00F0EB36 /* OrderFood-Info.plist */ = {isa = PBXFileReference; path = "OrderFood-Info.plist"; sourceTree = "<group>"; };
+		E6039CB515B266BB00F0EB36 /* OrderFood-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OrderFood-Info.plist"; sourceTree = "<group>"; };
 		E6039CB715B266BB00F0EB36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E6039CB915B266BB00F0EB36 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E6039CBB15B266BB00F0EB36 /* OrderFood-Prefix.pch */ = {isa = PBXFileReference; path = "OrderFood-Prefix.pch"; sourceTree = "<group>"; };
-		E6039CBC15B266BB00F0EB36 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		E6039CBB15B266BB00F0EB36 /* OrderFood-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OrderFood-Prefix.pch"; sourceTree = "<group>"; };
+		E6039CBC15B266BB00F0EB36 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E6039CBD15B266BB00F0EB36 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E6039CC015B266BB00F0EB36 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		E6039CC215B266BB00F0EB36 /* MasterViewController.h */ = {isa = PBXFileReference; path = MasterViewController.h; sourceTree = "<group>"; };
+		E6039CC215B266BB00F0EB36 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		E6039CC315B266BB00F0EB36 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		E6039CC515B266BB00F0EB36 /* DetailViewController.h */ = {isa = PBXFileReference; path = DetailViewController.h; sourceTree = "<group>"; };
+		E6039CC515B266BB00F0EB36 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		E6039CC615B266BB00F0EB36 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		E6039CCF15B2680500F0EB36 /* FoodStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodStore.h; sourceTree = "<group>"; };
+		E6039CD015B2680500F0EB36 /* FoodStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodStore.m; sourceTree = "<group>"; };
+		E6039CD215B269B800F0EB36 /* stores.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stores.plist; sourceTree = "<group>"; };
+		E6039CD415B2B05B00F0EB36 /* foodGeneric.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foodGeneric.jpeg; sourceTree = "<group>"; };
+		E6039CD615B2B3A800F0EB36 /* callGeneric.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = callGeneric.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,13 +89,10 @@
 		E6039CB315B266BB00F0EB36 /* OrderFood */ = {
 			isa = PBXGroup;
 			children = (
-				E6039CBC15B266BB00F0EB36 /* AppDelegate.h */,
-				E6039CBD15B266BB00F0EB36 /* AppDelegate.m */,
-				E6039CBF15B266BB00F0EB36 /* MainStoryboard.storyboard */,
-				E6039CC215B266BB00F0EB36 /* MasterViewController.h */,
-				E6039CC315B266BB00F0EB36 /* MasterViewController.m */,
-				E6039CC515B266BB00F0EB36 /* DetailViewController.h */,
-				E6039CC615B266BB00F0EB36 /* DetailViewController.m */,
+				E6039CD615B2B3A800F0EB36 /* callGeneric.png */,
+				E6039CD415B2B05B00F0EB36 /* foodGeneric.jpeg */,
+				E6039CCE15B267D900F0EB36 /* Model */,
+				E6039CCD15B267C500F0EB36 /* GUI */,
 				E6039CB415B266BB00F0EB36 /* Supporting Files */,
 			);
 			path = OrderFood;
@@ -99,8 +105,32 @@
 				E6039CB615B266BB00F0EB36 /* InfoPlist.strings */,
 				E6039CB915B266BB00F0EB36 /* main.m */,
 				E6039CBB15B266BB00F0EB36 /* OrderFood-Prefix.pch */,
+				E6039CD215B269B800F0EB36 /* stores.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E6039CCD15B267C500F0EB36 /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				E6039CBC15B266BB00F0EB36 /* AppDelegate.h */,
+				E6039CBD15B266BB00F0EB36 /* AppDelegate.m */,
+				E6039CBF15B266BB00F0EB36 /* MainStoryboard.storyboard */,
+				E6039CC215B266BB00F0EB36 /* MasterViewController.h */,
+				E6039CC315B266BB00F0EB36 /* MasterViewController.m */,
+				E6039CC515B266BB00F0EB36 /* DetailViewController.h */,
+				E6039CC615B266BB00F0EB36 /* DetailViewController.m */,
+			);
+			name = GUI;
+			sourceTree = "<group>";
+		};
+		E6039CCE15B267D900F0EB36 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E6039CCF15B2680500F0EB36 /* FoodStore.h */,
+				E6039CD015B2680500F0EB36 /* FoodStore.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +185,9 @@
 			files = (
 				E6039CB815B266BB00F0EB36 /* InfoPlist.strings in Resources */,
 				E6039CC115B266BB00F0EB36 /* MainStoryboard.storyboard in Resources */,
+				E6039CD315B269B800F0EB36 /* stores.plist in Resources */,
+				E6039CD515B2B05B00F0EB36 /* foodGeneric.jpeg in Resources */,
+				E6039CD715B2B3A800F0EB36 /* callGeneric.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +202,7 @@
 				E6039CBE15B266BB00F0EB36 /* AppDelegate.m in Sources */,
 				E6039CC415B266BB00F0EB36 /* MasterViewController.m in Sources */,
 				E6039CC715B266BB00F0EB36 /* DetailViewController.m in Sources */,
+				E6039CD115B2680500F0EB36 /* FoodStore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
