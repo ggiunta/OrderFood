@@ -9,6 +9,7 @@
             <key>phone</key>  <string>47430990</string>
             <key>prices</key>  <string>High</string>
             <key>url_menu</key>  <string>http://www.guiaoleo.com.ar/</string>
+            <key>logo</key>  <string>no_logo</string>
         </dict>
         <dict>
             <key>category</key>  <string>Pizza y Empanadas</string>
@@ -17,6 +18,7 @@
             <key>phone</key>  <string>47773743</string>
             <key>prices</key>  <string>Medium</string>
             <key>url_menu</key>  <string>http://www.almacendepizzas.com/2012/menu/menuweb2.html</string>
+            <key>logo</key>  <string>logo_almacen.png</string>
         </dict>
         <dict>
             <key>category</key>  <string>Sushi</string>
@@ -25,6 +27,7 @@
             <key>phone</key>  <string>47430990</string>
             <key>prices</key>  <string>High</string>
             <key>url_menu</key>  <string>http://guiaoleo.com.ar/</string>
+            <key>logo</key>  <string>logo_sushi_club.jpg</string>
         </dict>
         <dict>
             <key>category</key>  <string>A bit of everything</string>
@@ -33,6 +36,7 @@
             <key>phone</key>  <string>47727343</string>
             <key>prices</key>  <string>Medium</string>
             <key>url_menu</key>  <string>http://www.guiaoleo.com.ar/</string>
+            <key>logo</key>  <string>no_logo</string>
         </dict>
         <dict>
             <key>category</key>  <string>Pizza y Empanadas</string>
@@ -41,6 +45,7 @@
             <key>phone</key>  <string>45114444</string>
             <key>prices</key>  <string>High</string>
             <key>url_menu</key>  <string>http://www.romario.com.ar/delivery/</string>
+            <key>logo</key>  <string>logo_romario.jpg</string>
         </dict>
         <dict>
             <key>category</key>  <string>Sushi</string>
@@ -49,6 +54,7 @@
             <key>phone</key>  <string>48040114</string>
             <key>prices</key>  <string>Medium</string>
             <key>url_menu</key>  <string>http://www.guiaoleo.com.ar/</string>
+            <key>logo</key>  <string>no_logo</string>
         </dict>
         <dict>
             <key>category</key>  <string>Sushi</string>
@@ -57,6 +63,7 @@
             <key>phone</key>  <string>52725900</string>
             <key>prices</key>  <string>Medium</string>
             <key>url_menu</key>  <string>http://www.sushi-pop.com.ar/</string>
+            <key>logo</key>  <string>logo_sushi_pop.jpg</string>
         </dict>
         <dict>
             <key>category</key>  <string>Ice Creams</string>
@@ -65,6 +72,7 @@
             <key>phone</key>  <string>081033373336</string>
             <key>prices</key>  <string>High</string>
             <key>url_menu</key>  <string>http://www.freddo.com.ar/Productos/Nuevos_Sabores/default.aspx</string>
+            <key>logo</key>  <string>no_logo</string>
         </dict>
         <dict>
             <key>category</key>  <string>Any</string>
@@ -73,6 +81,7 @@
             <key>phone</key>  <string>123</string>
             <key>prices</key>  <string>TBD</string>
             <key>url_menu</key>  <string>http://google.com/</string>
+            <key>logo</key>  <string>no_logo</string>
         </dict>
         <dict>
             <key>category</key>  <string>Any</string>
@@ -81,6 +90,7 @@
             <key>phone</key>  <string>123</string>
             <key>prices</key>  <string>TBD</string>
             <key>url_menu</key>  <string>http://google.com/</string>
+            <key>logo</key>  <string>no_logo</string>
         </dict>
         <dict>
             <key>category</key>  <string>Any</string>
@@ -89,6 +99,7 @@
             <key>phone</key>  <string>123</string>
             <key>prices</key>  <string>TBD</string>
             <key>url_menu</key>  <string>http://google.com/</string>
+            <key>logo</key>  <string>no_logo</string>
         </dict>
         <dict>
             <key>category</key>  <string>Any</string>
@@ -97,6 +108,7 @@
             <key>phone</key>  <string>123</string>
             <key>prices</key>  <string>TBD</string>
             <key>url_menu</key>  <string>http://google.com/</string>
+            <key>logo</key>  <string>no_logo</string>
         </dict>
     </array>
 </plist>

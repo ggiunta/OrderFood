@@ -16,8 +16,9 @@
 @synthesize phone = _phone;
 @synthesize prices = _prices;
 @synthesize url_menu = _url_menu;
+@synthesize logoFileName = _logoFileName;
 
--(id)initWithCategory:(NSString*)category name:(NSString*)name area:(NSString*)area phone:(NSString*)phone prices:(NSString*)prices url_menu:(NSString *)url_menu {
+-(id)initWithCategory:(NSString*)category name:(NSString*)name area:(NSString*)area phone:(NSString*)phone prices:(NSString*)prices url_menu:(NSString *)url_menu logoFileName:(NSString*)logoFileName {
     if ((self = [super init])) {
         self.category = category;
         self.name = name;
@@ -25,6 +26,7 @@
         self.phone = phone;
         self.prices = prices;
         self.url_menu = url_menu;
+        self.logoFileName = logoFileName;
     }
     return self;
 }

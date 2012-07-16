@@ -16,7 +16,8 @@
 @property (strong) NSString *phone;
 @property (strong) NSString *prices;
 @property (strong) NSString *url_menu;
+@property (strong) NSString *logoFileName;
 
--(id)initWithCategory:(NSString*)category name:(NSString*)name area:(NSString*)area phone:(NSString*)phone prices:(NSString*)prices url_menu:(NSString *)url_menu;
+-(id)initWithCategory:(NSString*)category name:(NSString*)name area:(NSString*)area phone:(NSString*)phone prices:(NSString*)prices url_menu:(NSString *)url_menu logoFileName:(NSString*)logoFileName;
 
 @end

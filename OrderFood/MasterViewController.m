@@ -78,6 +78,11 @@
                              dequeueReusableCellWithIdentifier:@"Cell"];
     cell.textLabel.text = [[self.stores objectAtIndex:indexPath.row] valueForKey:@"name"];
     cell.detailTextLabel.text = [[self.stores objectAtIndex:indexPath.row] valueForKey:@"category"];
+    NSString *imageFileName = [[self.stores objectAtIndex:indexPath.row] valueForKey:@"logo"];
+    cell.imageView.image = [UIImage imageNamed:imageFileName];
+    if (!cell.imageView.image) {
+        cell.imageView.image = [UIImage imageNamed:@"foodGenericHd"];
+    }
     return cell;
 }
 
@@ -124,7 +129,8 @@
     NSString *phone = [storeDic valueForKey:@"phone"];
     NSString *prices = [storeDic valueForKey:@"prices"];
     NSString *url_menu = [storeDic valueForKey:@"url_menu"];
-    FoodStore *store = [[FoodStore alloc] initWithCategory:category name:name area:area phone:phone prices:prices url_menu:url_menu];
+    NSString *logoFileName = [storeDic valueForKey:@"logo"];
+    FoodStore *store = [[FoodStore alloc] initWithCategory:category name:name area:area phone:phone prices:prices url_menu:url_menu logoFileName:logoFileName];
     detailController.detailItem = store;
 }
 

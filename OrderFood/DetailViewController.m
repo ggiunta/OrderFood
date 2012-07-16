@@ -49,10 +49,13 @@
         self.storeArea.text = [NSString stringWithFormat: @"Area: %@", self.detailItem.area];
         self.storePrices.text = [NSString stringWithFormat: @"Prices: %@", self.detailItem.prices];
         [self.storePhone setTitle:self.detailItem.phone forState:UIControlStateNormal];
-        self.foodStoreLogo.image = [UIImage imageNamed:@"foodGenericHd.png"];
         self.callStoreLogoRight.image = [UIImage imageNamed:@"callGenericHd.png"];
         self.callStoreLogoLeft.image = [UIImage imageNamed:@"callGenericHd.png"];
-        self.fileBackground.image = [UIImage imageNamed:@"file3.png"];
+        self.fileBackground.image = [UIImage imageNamed:@"File3.png"];
+        self.foodStoreLogo.image = [UIImage imageNamed:self.detailItem.logoFileName];
+        if (!self.foodStoreLogo.image) {
+            self.foodStoreLogo.image = [UIImage imageNamed:@"foodGenericHd.png"];
+        }
     }
 }
 
