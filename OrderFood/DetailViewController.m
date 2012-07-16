@@ -97,4 +97,11 @@
     NSString *phone = [NSString stringWithFormat: @"tel://%@", self.detailItem.phone];
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:phone]];
 }
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    DetailViewController *detailController = segue.destinationViewController;
+    detailController.detailItem = self.detailItem;
+}
+
 @end

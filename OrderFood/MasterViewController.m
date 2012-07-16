@@ -130,7 +130,9 @@
     NSString *prices = [storeDic valueForKey:@"prices"];
     NSString *url_menu = [storeDic valueForKey:@"url_menu"];
     NSString *logoFileName = [storeDic valueForKey:@"logo"];
-    FoodStore *store = [[FoodStore alloc] initWithCategory:category name:name area:area phone:phone prices:prices url_menu:url_menu logoFileName:logoFileName];
+    NSString *lat = [storeDic valueForKey:@"lat"];
+    NSString *lon = [storeDic valueForKey:@"lon"];
+    FoodStore *store = [[FoodStore alloc] initWithCategory:category name:name area:area phone:phone prices:prices url_menu:url_menu logoFileName:logoFileName lat:lat lon:lon];
     detailController.detailItem = store;
 }
 

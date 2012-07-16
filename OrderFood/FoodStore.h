@@ -17,7 +17,9 @@
 @property (strong) NSString *prices;
 @property (strong) NSString *url_menu;
 @property (strong) NSString *logoFileName;
+@property (strong) NSString *lat;
+@property (strong) NSString *lon;
 
--(id)initWithCategory:(NSString*)category name:(NSString*)name area:(NSString*)area phone:(NSString*)phone prices:(NSString*)prices url_menu:(NSString *)url_menu logoFileName:(NSString*)logoFileName;
+-(id)initWithCategory:(NSString*)category name:(NSString*)name area:(NSString*)area phone:(NSString*)phone prices:(NSString*)prices url_menu:(NSString *)url_menu logoFileName:(NSString*)logoFileName lat:(NSString*)lat lon:(NSString*)lon;
 
 @end

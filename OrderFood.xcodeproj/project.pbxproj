@@ -18,11 +18,12 @@
 		E6039CC715B266BB00F0EB36 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6039CC615B266BB00F0EB36 /* DetailViewController.m */; };
 		E6039CD115B2680500F0EB36 /* FoodStore.m in Sources */ = {isa = PBXBuildFile; fileRef = E6039CD015B2680500F0EB36 /* FoodStore.m */; };
 		E6039CD315B269B800F0EB36 /* stores.plist in Resources */ = {isa = PBXBuildFile; fileRef = E6039CD215B269B800F0EB36 /* stores.plist */; };
+		E677C56F15B477DA00A08BBD /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E677C56E15B477DA00A08BBD /* MapViewController.m */; };
+		E677C57315B4907400A08BBD /* MyAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = E677C57215B4907400A08BBD /* MyAnnotation.m */; };
 		E678AC9D15B3982C00E27A15 /* foodGenericHd.png in Resources */ = {isa = PBXBuildFile; fileRef = E678AC9C15B3982C00E27A15 /* foodGenericHd.png */; };
 		E678ACA015B3999100E27A15 /* callGenericHd.png in Resources */ = {isa = PBXBuildFile; fileRef = E678AC9F15B3999100E27A15 /* callGenericHd.png */; };
 		E678ACA615B3A1C800E27A15 /* File3.png in Resources */ = {isa = PBXBuildFile; fileRef = E678ACA515B3A1C800E27A15 /* File3.png */; };
 		E678ACA815B3AB4300E27A15 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E678ACA715B3AB4300E27A15 /* MapKit.framework */; };
-		E678ACAB15B3AB8600E27A15 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E678ACAA15B3AB8600E27A15 /* MapViewController.m */; };
 		E678ACB015B3C23D00E27A15 /* logo_almacen.png in Resources */ = {isa = PBXBuildFile; fileRef = E678ACAC15B3C23C00E27A15 /* logo_almacen.png */; };
 		E678ACB115B3C23D00E27A15 /* logo_romario.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E678ACAD15B3C23C00E27A15 /* logo_romario.jpg */; };
 		E678ACB215B3C23D00E27A15 /* logo_sushi_club.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E678ACAE15B3C23D00E27A15 /* logo_sushi_club.jpg */; };
@@ -49,12 +50,14 @@
 		E6039CCF15B2680500F0EB36 /* FoodStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodStore.h; sourceTree = "<group>"; };
 		E6039CD015B2680500F0EB36 /* FoodStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodStore.m; sourceTree = "<group>"; };
 		E6039CD215B269B800F0EB36 /* stores.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stores.plist; sourceTree = "<group>"; };
+		E677C56D15B477DA00A08BBD /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		E677C56E15B477DA00A08BBD /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		E677C57115B4907400A08BBD /* MyAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAnnotation.h; sourceTree = "<group>"; };
+		E677C57215B4907400A08BBD /* MyAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAnnotation.m; sourceTree = "<group>"; };
 		E678AC9C15B3982C00E27A15 /* foodGenericHd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = foodGenericHd.png; sourceTree = "<group>"; };
 		E678AC9F15B3999100E27A15 /* callGenericHd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = callGenericHd.png; sourceTree = "<group>"; };
 		E678ACA515B3A1C800E27A15 /* File3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = File3.png; sourceTree = "<group>"; };
 		E678ACA715B3AB4300E27A15 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		E678ACA915B3AB8600E27A15 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
-		E678ACAA15B3AB8600E27A15 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		E678ACAC15B3C23C00E27A15 /* logo_almacen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_almacen.png; path = ../../../Downloads/Logos/logo_almacen.png; sourceTree = "<group>"; };
 		E678ACAD15B3C23C00E27A15 /* logo_romario.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = logo_romario.jpg; path = ../../../Downloads/Logos/logo_romario.jpg; sourceTree = "<group>"; };
 		E678ACAE15B3C23D00E27A15 /* logo_sushi_club.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = logo_sushi_club.jpg; path = ../../../Downloads/Logos/logo_sushi_club.jpg; sourceTree = "<group>"; };
@@ -109,6 +112,7 @@
 		E6039CB315B266BB00F0EB36 /* OrderFood */ = {
 			isa = PBXGroup;
 			children = (
+				E677C57015B4905400A08BBD /* Protocol Objects */,
 				E678ACAC15B3C23C00E27A15 /* logo_almacen.png */,
 				E678ACAD15B3C23C00E27A15 /* logo_romario.jpg */,
 				E678ACAE15B3C23D00E27A15 /* logo_sushi_club.jpg */,
@@ -145,8 +149,8 @@
 				E6039CC315B266BB00F0EB36 /* MasterViewController.m */,
 				E6039CC515B266BB00F0EB36 /* DetailViewController.h */,
 				E6039CC615B266BB00F0EB36 /* DetailViewController.m */,
-				E678ACA915B3AB8600E27A15 /* MapViewController.h */,
-				E678ACAA15B3AB8600E27A15 /* MapViewController.m */,
+				E677C56D15B477DA00A08BBD /* MapViewController.h */,
+				E677C56E15B477DA00A08BBD /* MapViewController.m */,
 			);
 			name = GUI;
 			sourceTree = "<group>";
@@ -158,6 +162,15 @@
 				E6039CD015B2680500F0EB36 /* FoodStore.m */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		E677C57015B4905400A08BBD /* Protocol Objects */ = {
+			isa = PBXGroup;
+			children = (
+				E677C57115B4907400A08BBD /* MyAnnotation.h */,
+				E677C57215B4907400A08BBD /* MyAnnotation.m */,
+			);
+			name = "Protocol Objects";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,7 +249,8 @@
 				E6039CC415B266BB00F0EB36 /* MasterViewController.m in Sources */,
 				E6039CC715B266BB00F0EB36 /* DetailViewController.m in Sources */,
 				E6039CD115B2680500F0EB36 /* FoodStore.m in Sources */,
-				E678ACAB15B3AB8600E27A15 /* MapViewController.m in Sources */,
+				E677C56F15B477DA00A08BBD /* MapViewController.m in Sources */,
+				E677C57315B4907400A08BBD /* MyAnnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

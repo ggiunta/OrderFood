@@ -2,18 +2,18 @@
 //  MapViewController.h
 //  OrderFood
 //
-//  Created by German Giunta on 7/15/12.
+//  Created by German Giunta on 7/16/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import <MapKit/MapKit.h>
 
+@interface MapViewController : UIViewController<MKMapViewDelegate, MKAnnotation>
 
-#define METERS_PER_MILE 1609.344
+@property (strong, nonatomic) IBOutlet MKMapView *mapView;
+@property (strong, nonatomic) FoodStore *detailItem;
 
-@interface MapViewController : UIViewController{
-}
+- (void)viewDidLoad:(id)sender;
 
 @end

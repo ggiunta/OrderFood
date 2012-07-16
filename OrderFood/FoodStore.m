@@ -17,8 +17,11 @@
 @synthesize prices = _prices;
 @synthesize url_menu = _url_menu;
 @synthesize logoFileName = _logoFileName;
+@synthesize lat = _lat;
+@synthesize lon = _lon;
 
--(id)initWithCategory:(NSString*)category name:(NSString*)name area:(NSString*)area phone:(NSString*)phone prices:(NSString*)prices url_menu:(NSString *)url_menu logoFileName:(NSString*)logoFileName {
+-(id)initWithCategory:(NSString*)category name:(NSString*)name area:(NSString*)area phone:(NSString*)phone prices:(NSString*)prices url_menu:(NSString *)url_menu logoFileName:(NSString*)logoFileName lat:(NSString*)lat lon:(NSString*)lon
+{
     if ((self = [super init])) {
         self.category = category;
         self.name = name;
@@ -27,6 +30,8 @@
         self.prices = prices;
         self.url_menu = url_menu;
         self.logoFileName = logoFileName;
+        self.lat = lat;
+        self.lon = lon;
     }
     return self;
 }
