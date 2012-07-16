@@ -24,10 +24,10 @@
             <key>area</key>  <string>San Isidro</string>
             <key>phone</key>  <string>47430990</string>
             <key>prices</key>  <string>High</string>
-            <key>url_menu</key>  <string>http://sushiclubweb.com/delivery/</string>
+            <key>url_menu</key>  <string>http://guiaoleo.com.ar/</string>
         </dict>
         <dict>
-            <key>category</key>  <string>Multi</string>
+            <key>category</key>  <string>A bit of everything</string>
             <key>name</key>  <string>El Trapiche</string>
             <key>area</key>  <string>Palermo</string>
             <key>phone</key>  <string>47727343</string>
@@ -51,52 +51,52 @@
             <key>url_menu</key>  <string>http://www.guiaoleo.com.ar/</string>
         </dict>
         <dict>
-            <key>category</key>  <string>Pizza y Empanadas</string>
-            <key>name</key>  <string>El Altillo</string>
-            <key>area</key>  <string>San Isidro</string>
-            <key>phone</key>  <string>47430990</string>
-            <key>prices</key>  <string>High</string>
-            <key>url_menu</key>  <string>http://www.guiaoleo.com.ar/</string>
-        </dict>
-        <dict>
-            <key>category</key>  <string>Pizza y Empanadas</string>
-            <key>name</key>  <string>Almacen de Pizzas</string>
-            <key>area</key>  <string>Palermo Hollywood</string>
-            <key>phone</key>  <string>47773743</string>
-            <key>prices</key>  <string>Medium</string>
-            <key>url_menu</key>  <string>http://www.almacendepizzas.com/2012/menu/menuweb2.html</string>
-        </dict>
-        <dict>
             <key>category</key>  <string>Sushi</string>
-            <key>name</key>  <string>Sushi Club</string>
+            <key>name</key>  <string>Sushi Pop</string>
             <key>area</key>  <string>San Isidro</string>
-            <key>phone</key>  <string>47430990</string>
-            <key>prices</key>  <string>High</string>
-            <key>url_menu</key>  <string>http://sushiclubweb.com/delivery/</string>
-        </dict>
-        <dict>
-            <key>category</key>  <string>Multi</string>
-            <key>name</key>  <string>El Trapiche</string>
-            <key>area</key>  <string>Palermo</string>
-            <key>phone</key>  <string>47727343</string>
+            <key>phone</key>  <string>52725900</string>
             <key>prices</key>  <string>Medium</string>
-            <key>url_menu</key>  <string>http://www.guiaoleo.com.ar/</string>
+            <key>url_menu</key>  <string>http://www.sushi-pop.com.ar/</string>
         </dict>
         <dict>
-            <key>category</key>  <string>Pizza y Empanadas</string>
-            <key>name</key>  <string>Romario</string>
-            <key>area</key>  <string>Palermo</string>
-            <key>phone</key>  <string>45114444</string>
+            <key>category</key>  <string>Ice Creams</string>
+            <key>name</key>  <string>Freddo</string>
+            <key>area</key>  <string>Buenos Aires</string>
+            <key>phone</key>  <string>081033373336</string>
             <key>prices</key>  <string>High</string>
-            <key>url_menu</key>  <string>http://www.romario.com.ar/delivery/</string>
+            <key>url_menu</key>  <string>http://www.freddo.com.ar/Productos/Nuevos_Sabores/default.aspx</string>
         </dict>
         <dict>
-            <key>category</key>  <string>Sushi</string>
-            <key>name</key>  <string>Animal Sushi</string>
-            <key>area</key>  <string>San Isidro</string>
-            <key>phone</key>  <string>48040114</string>
-            <key>prices</key>  <string>Medium</string>
-            <key>url_menu</key>  <string>http://www.guiaoleo.com.ar/</string>
+            <key>category</key>  <string>Any</string>
+            <key>name</key>  <string>Food Co.</string>
+            <key>area</key>  <string>Somewhere</string>
+            <key>phone</key>  <string>123</string>
+            <key>prices</key>  <string>TBD</string>
+            <key>url_menu</key>  <string>http://google.com/</string>
+        </dict>
+        <dict>
+            <key>category</key>  <string>Any</string>
+            <key>name</key>  <string>Food Co.</string>
+            <key>area</key>  <string>Somewhere</string>
+            <key>phone</key>  <string>123</string>
+            <key>prices</key>  <string>TBD</string>
+            <key>url_menu</key>  <string>http://google.com/</string>
+        </dict>
+        <dict>
+            <key>category</key>  <string>Any</string>
+            <key>name</key>  <string>Food Co.</string>
+            <key>area</key>  <string>Somewhere</string>
+            <key>phone</key>  <string>123</string>
+            <key>prices</key>  <string>TBD</string>
+            <key>url_menu</key>  <string>http://google.com/</string>
+        </dict>
+        <dict>
+            <key>category</key>  <string>Any</string>
+            <key>name</key>  <string>Food Co.</string>
+            <key>area</key>  <string>Somewhere</string>
+            <key>phone</key>  <string>123</string>
+            <key>prices</key>  <string>TBD</string>
+            <key>url_menu</key>  <string>http://google.com/</string>
         </dict>
     </array>
 </plist>

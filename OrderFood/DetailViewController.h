@@ -17,9 +17,11 @@
 @property (weak, nonatomic) IBOutlet UILabel *storeCategory;
 @property (weak, nonatomic) IBOutlet UILabel *storeArea;
 @property (weak, nonatomic) IBOutlet UILabel *storePrices;
-@property (weak, nonatomic) IBOutlet UILabel *storePhone;
+@property (weak, nonatomic) IBOutlet UIButton *storePhone;
 @property (weak, nonatomic) IBOutlet UIImageView *foodStoreLogo;
-@property (weak, nonatomic) IBOutlet UIImageView *callStoreLogo;
+@property (weak, nonatomic) IBOutlet UIImageView *callStoreLogoRight;
+@property (weak, nonatomic) IBOutlet UIImageView *callStoreLogoLeft;
+@property (weak, nonatomic) IBOutlet UIImageView *fileBackground;
 
 
 - (IBAction)goToWebMenu:(id)sender;

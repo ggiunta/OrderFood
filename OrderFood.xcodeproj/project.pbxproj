@@ -18,8 +18,9 @@
 		E6039CC715B266BB00F0EB36 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6039CC615B266BB00F0EB36 /* DetailViewController.m */; };
 		E6039CD115B2680500F0EB36 /* FoodStore.m in Sources */ = {isa = PBXBuildFile; fileRef = E6039CD015B2680500F0EB36 /* FoodStore.m */; };
 		E6039CD315B269B800F0EB36 /* stores.plist in Resources */ = {isa = PBXBuildFile; fileRef = E6039CD215B269B800F0EB36 /* stores.plist */; };
-		E6039CD515B2B05B00F0EB36 /* foodGeneric.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E6039CD415B2B05B00F0EB36 /* foodGeneric.jpeg */; };
-		E6039CD715B2B3A800F0EB36 /* callGeneric.png in Resources */ = {isa = PBXBuildFile; fileRef = E6039CD615B2B3A800F0EB36 /* callGeneric.png */; };
+		E678AC9D15B3982C00E27A15 /* foodGenericHd.png in Resources */ = {isa = PBXBuildFile; fileRef = E678AC9C15B3982C00E27A15 /* foodGenericHd.png */; };
+		E678ACA015B3999100E27A15 /* callGenericHd.png in Resources */ = {isa = PBXBuildFile; fileRef = E678AC9F15B3999100E27A15 /* callGenericHd.png */; };
+		E678ACA615B3A1C800E27A15 /* File3.png in Resources */ = {isa = PBXBuildFile; fileRef = E678ACA515B3A1C800E27A15 /* File3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,8 +42,9 @@
 		E6039CCF15B2680500F0EB36 /* FoodStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodStore.h; sourceTree = "<group>"; };
 		E6039CD015B2680500F0EB36 /* FoodStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodStore.m; sourceTree = "<group>"; };
 		E6039CD215B269B800F0EB36 /* stores.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stores.plist; sourceTree = "<group>"; };
-		E6039CD415B2B05B00F0EB36 /* foodGeneric.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foodGeneric.jpeg; sourceTree = "<group>"; };
-		E6039CD615B2B3A800F0EB36 /* callGeneric.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = callGeneric.png; sourceTree = "<group>"; };
+		E678AC9C15B3982C00E27A15 /* foodGenericHd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = foodGenericHd.png; sourceTree = "<group>"; };
+		E678AC9F15B3999100E27A15 /* callGenericHd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = callGenericHd.png; sourceTree = "<group>"; };
+		E678ACA515B3A1C800E27A15 /* File3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = File3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +91,9 @@
 		E6039CB315B266BB00F0EB36 /* OrderFood */ = {
 			isa = PBXGroup;
 			children = (
-				E6039CD615B2B3A800F0EB36 /* callGeneric.png */,
-				E6039CD415B2B05B00F0EB36 /* foodGeneric.jpeg */,
+				E678ACA515B3A1C800E27A15 /* File3.png */,
+				E678AC9F15B3999100E27A15 /* callGenericHd.png */,
+				E678AC9C15B3982C00E27A15 /* foodGenericHd.png */,
 				E6039CCE15B267D900F0EB36 /* Model */,
 				E6039CCD15B267C500F0EB36 /* GUI */,
 				E6039CB415B266BB00F0EB36 /* Supporting Files */,
@@ -186,8 +189,9 @@
 				E6039CB815B266BB00F0EB36 /* InfoPlist.strings in Resources */,
 				E6039CC115B266BB00F0EB36 /* MainStoryboard.storyboard in Resources */,
 				E6039CD315B269B800F0EB36 /* stores.plist in Resources */,
-				E6039CD515B2B05B00F0EB36 /* foodGeneric.jpeg in Resources */,
-				E6039CD715B2B3A800F0EB36 /* callGeneric.png in Resources */,
+				E678AC9D15B3982C00E27A15 /* foodGenericHd.png in Resources */,
+				E678ACA015B3999100E27A15 /* callGenericHd.png in Resources */,
+				E678ACA615B3A1C800E27A15 /* File3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +318,7 @@
 				E6039CCC15B266BB00F0EB36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

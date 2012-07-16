@@ -23,7 +23,9 @@
 @synthesize storePrices = _storePrices;
 @synthesize storePhone = _storePhone;
 @synthesize foodStoreLogo = _foodStoreLogo;
-@synthesize callStoreLogo = _callStoreLogo;
+@synthesize callStoreLogoRight = _callStoreLogoRight;
+@synthesize callStoreLogoLeft = _callStoreLogoLeft;
+@synthesize fileBackground = _fileBackground;
 
 #pragma mark - Managing the detail item
 
@@ -46,9 +48,11 @@
         self.storeCategory.text = [NSString stringWithFormat: @"Category: %@", self.detailItem.category];
         self.storeArea.text = [NSString stringWithFormat: @"Area: %@", self.detailItem.area];
         self.storePrices.text = [NSString stringWithFormat: @"Prices: %@", self.detailItem.prices];
-        self.storePhone.text = self.detailItem.phone;
-        self.foodStoreLogo.image = [UIImage imageNamed:@"foodGeneric.jpeg"];
-        self.callStoreLogo.image = [UIImage imageNamed:@"callGeneric.png"];
+        [self.storePhone setTitle:self.detailItem.phone forState:UIControlStateNormal];
+        self.foodStoreLogo.image = [UIImage imageNamed:@"foodGenericHd.png"];
+        self.callStoreLogoRight.image = [UIImage imageNamed:@"callGenericHd.png"];
+        self.callStoreLogoLeft.image = [UIImage imageNamed:@"callGenericHd.png"];
+        self.fileBackground.image = [UIImage imageNamed:@"file3.png"];
     }
 }
 
@@ -68,7 +72,9 @@
     [self setStorePrices:nil];
     [self setStorePhone:nil];
     [self setFoodStoreLogo:nil];
-    [self setCallStoreLogo:nil];
+    [self setCallStoreLogoRight:nil];
+    [self setCallStoreLogoLeft:nil];
+    [self setFileBackground:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
