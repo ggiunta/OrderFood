@@ -10,8 +10,8 @@
             <key>prices</key>  <string>High</string>
             <key>url_menu</key>  <string>http://www.guiaoleo.com.ar/</string>
             <key>logo</key>  <string>no_logo</string>
-            <key>lat</key>  <string>-34.46195</string>
-            <key>lon</key>  <string>--58.518205</string>
+            <key>lat</key>  <string>-34.462976</string>
+            <key>lon</key>  <string>-58.517389</string>
         </dict>
         <dict>
             <key>category</key>  <string>Pizza y Empanadas</string>
@@ -20,7 +20,7 @@
             <key>phone</key>  <string>47773743</string>
             <key>prices</key>  <string>Medium</string>
             <key>url_menu</key>  <string>http://www.almacendepizzas.com/2012/menu/menuweb2.html</string>
-            <key>logo</key>  <string>logo_almacen.png</string>
+            <key>logo</key>  <string>logo_almacen.jpeg</string>
             <key>lat</key>  <string>-34.5816756</string>
             <key>lon</key>  <string>-58.4337444</string>
         </dict>
@@ -31,9 +31,9 @@
             <key>phone</key>  <string>47430990</string>
             <key>prices</key>  <string>High</string>
             <key>url_menu</key>  <string>http://guiaoleo.com.ar/</string>
-            <key>logo</key>  <string>logo_sushi_club.jpg</string>
-            <key>lat</key>  <string>-34.5809149</string>
-            <key>lon</key>  <string>-58.4323343</string>
+            <key>logo</key>  <string>logo_sushi_club.jpeg</string>
+            <key>lat</key>  <string>-34.473307</string>
+            <key>lon</key>  <string>-58.503699</string>
         </dict>
         <dict>
             <key>category</key>  <string>A bit of everything</string>
@@ -53,7 +53,7 @@
             <key>phone</key>  <string>45114444</string>
             <key>prices</key>  <string>High</string>
             <key>url_menu</key>  <string>http://www.romario.com.ar/delivery/</string>
-            <key>logo</key>  <string>logo_romario.jpg</string>
+            <key>logo</key>  <string>logo_romario.jpeg</string>
             <key>lat</key>  <string>-34.5809149</string>
             <key>lon</key>  <string>-58.4323343</string>
         </dict>
@@ -64,7 +64,7 @@
             <key>phone</key>  <string>48040114</string>
             <key>prices</key>  <string>Medium</string>
             <key>url_menu</key>  <string>http://www.guiaoleo.com.ar/</string>
-            <key>logo</key>  <string>no_logo</string>
+            <key>logo</key>  <string>logo_animal.jpeg</string>
             <key>lat</key>  <string>-34.5809149</string>
             <key>lon</key>  <string>-58.4323343</string>
         </dict>
@@ -75,7 +75,7 @@
             <key>phone</key>  <string>52725900</string>
             <key>prices</key>  <string>Medium</string>
             <key>url_menu</key>  <string>http://www.sushi-pop.com.ar/</string>
-            <key>logo</key>  <string>logo_sushi_pop.jpg</string>
+            <key>logo</key>  <string>logo_sushi_pop.jpeg</string>
             <key>lat</key>  <string>-34.5809149</string>
             <key>lon</key>  <string>-58.4323343</string>
         </dict>
@@ -86,7 +86,7 @@
             <key>phone</key>  <string>081033373336</string>
             <key>prices</key>  <string>High</string>
             <key>url_menu</key>  <string>http://www.freddo.com.ar/Productos/Nuevos_Sabores/default.aspx</string>
-            <key>logo</key>  <string>no_logo</string>
+            <key>logo</key>  <string>logo_freddo.jpeg</string>
             <key>lat</key>  <string>-34.5809149</string>
             <key>lon</key>  <string>-58.4323343</string>
         </dict>

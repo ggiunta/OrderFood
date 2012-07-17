@@ -213,33 +213,6 @@
             <point key="canvasLocation" x="1359" y="64"/>
         </scene>
     </scenes>
-    <classes>
-        <class className="DetailViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/DetailViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="callStore:"/>
-                <relationship kind="action" name="goToWebMenu:"/>
-                <relationship kind="outlet" name="callStoreLogoLeft" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="callStoreLogoRight" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="fileBackground" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="foodStoreLogo" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="storeArea" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="storeCategory" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="storeName" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="storePhone" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="storePrices" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="MapViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/MapViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="mapView" candidateClass="MKMapView"/>
-            </relationships>
-        </class>
-        <class className="MasterViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/MasterViewController.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
