@@ -18,12 +18,12 @@
 		E6039CC715B266BB00F0EB36 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6039CC615B266BB00F0EB36 /* DetailViewController.m */; };
 		E6039CD115B2680500F0EB36 /* FoodStore.m in Sources */ = {isa = PBXBuildFile; fileRef = E6039CD015B2680500F0EB36 /* FoodStore.m */; };
 		E6039CD315B269B800F0EB36 /* stores.plist in Resources */ = {isa = PBXBuildFile; fileRef = E6039CD215B269B800F0EB36 /* stores.plist */; };
-		E65D061615B4E4BA0092BCE7 /* logo_almacen.png in Resources */ = {isa = PBXBuildFile; fileRef = E65D061015B4E4BA0092BCE7 /* logo_almacen.png */; };
 		E65D061715B4E4BA0092BCE7 /* logo_animal.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E65D061115B4E4BA0092BCE7 /* logo_animal.jpeg */; };
 		E65D061815B4E4BA0092BCE7 /* logo_freddo.png in Resources */ = {isa = PBXBuildFile; fileRef = E65D061215B4E4BA0092BCE7 /* logo_freddo.png */; };
 		E65D061915B4E4BA0092BCE7 /* logo_romario.png in Resources */ = {isa = PBXBuildFile; fileRef = E65D061315B4E4BA0092BCE7 /* logo_romario.png */; };
-		E65D061A15B4E4BA0092BCE7 /* logo_sushi_club.png in Resources */ = {isa = PBXBuildFile; fileRef = E65D061415B4E4BA0092BCE7 /* logo_sushi_club.png */; };
 		E65D061B15B4E4BA0092BCE7 /* logo_sushi_pop.png in Resources */ = {isa = PBXBuildFile; fileRef = E65D061515B4E4BA0092BCE7 /* logo_sushi_pop.png */; };
+		E65D061D15B4E70C0092BCE7 /* logo_almacen.png in Resources */ = {isa = PBXBuildFile; fileRef = E65D061C15B4E70C0092BCE7 /* logo_almacen.png */; };
+		E65D061F15B4E7180092BCE7 /* logo_sushi_club.png in Resources */ = {isa = PBXBuildFile; fileRef = E65D061E15B4E7170092BCE7 /* logo_sushi_club.png */; };
 		E677C56F15B477DA00A08BBD /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E677C56E15B477DA00A08BBD /* MapViewController.m */; };
 		E677C57315B4907400A08BBD /* MyAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = E677C57215B4907400A08BBD /* MyAnnotation.m */; };
 		E678AC9D15B3982C00E27A15 /* foodGenericHd.png in Resources */ = {isa = PBXBuildFile; fileRef = E678AC9C15B3982C00E27A15 /* foodGenericHd.png */; };
@@ -53,12 +53,12 @@
 		E6039CCF15B2680500F0EB36 /* FoodStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodStore.h; sourceTree = "<group>"; };
 		E6039CD015B2680500F0EB36 /* FoodStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodStore.m; sourceTree = "<group>"; };
 		E6039CD215B269B800F0EB36 /* stores.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stores.plist; sourceTree = "<group>"; };
-		E65D061015B4E4BA0092BCE7 /* logo_almacen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_almacen.png; sourceTree = "<group>"; };
 		E65D061115B4E4BA0092BCE7 /* logo_animal.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo_animal.jpeg; sourceTree = "<group>"; };
 		E65D061215B4E4BA0092BCE7 /* logo_freddo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_freddo.png; sourceTree = "<group>"; };
 		E65D061315B4E4BA0092BCE7 /* logo_romario.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_romario.png; sourceTree = "<group>"; };
-		E65D061415B4E4BA0092BCE7 /* logo_sushi_club.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_sushi_club.png; sourceTree = "<group>"; };
 		E65D061515B4E4BA0092BCE7 /* logo_sushi_pop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_sushi_pop.png; sourceTree = "<group>"; };
+		E65D061C15B4E70C0092BCE7 /* logo_almacen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_almacen.png; sourceTree = "<group>"; };
+		E65D061E15B4E7170092BCE7 /* logo_sushi_club.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_sushi_club.png; sourceTree = "<group>"; };
 		E677C56D15B477DA00A08BBD /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		E677C56E15B477DA00A08BBD /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		E677C57115B4907400A08BBD /* MyAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAnnotation.h; sourceTree = "<group>"; };
@@ -119,11 +119,11 @@
 		E6039CB315B266BB00F0EB36 /* OrderFood */ = {
 			isa = PBXGroup;
 			children = (
-				E65D061015B4E4BA0092BCE7 /* logo_almacen.png */,
+				E65D061E15B4E7170092BCE7 /* logo_sushi_club.png */,
+				E65D061C15B4E70C0092BCE7 /* logo_almacen.png */,
 				E65D061115B4E4BA0092BCE7 /* logo_animal.jpeg */,
 				E65D061215B4E4BA0092BCE7 /* logo_freddo.png */,
 				E65D061315B4E4BA0092BCE7 /* logo_romario.png */,
-				E65D061415B4E4BA0092BCE7 /* logo_sushi_club.png */,
 				E65D061515B4E4BA0092BCE7 /* logo_sushi_pop.png */,
 				E677C57015B4905400A08BBD /* Protocol Objects */,
 				E678ACA515B3A1C800E27A15 /* File3.png */,
@@ -240,12 +240,12 @@
 				E678ACA615B3A1C800E27A15 /* File3.png in Resources */,
 				E678ACB715B3C76B00E27A15 /* foodGenericHdcopy.png in Resources */,
 				E68AAFC215B4C3870053E903 /* Default.png in Resources */,
-				E65D061615B4E4BA0092BCE7 /* logo_almacen.png in Resources */,
 				E65D061715B4E4BA0092BCE7 /* logo_animal.jpeg in Resources */,
 				E65D061815B4E4BA0092BCE7 /* logo_freddo.png in Resources */,
 				E65D061915B4E4BA0092BCE7 /* logo_romario.png in Resources */,
-				E65D061A15B4E4BA0092BCE7 /* logo_sushi_club.png in Resources */,
 				E65D061B15B4E4BA0092BCE7 /* logo_sushi_pop.png in Resources */,
+				E65D061D15B4E70C0092BCE7 /* logo_almacen.png in Resources */,
+				E65D061F15B4E7180092BCE7 /* logo_sushi_club.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
