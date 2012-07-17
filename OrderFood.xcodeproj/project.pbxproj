@@ -32,6 +32,8 @@
 		E678ACA815B3AB4300E27A15 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E678ACA715B3AB4300E27A15 /* MapKit.framework */; };
 		E678ACB715B3C76B00E27A15 /* foodGenericHdcopy.png in Resources */ = {isa = PBXBuildFile; fileRef = E678ACB615B3C76B00E27A15 /* foodGenericHdcopy.png */; };
 		E68AAFC215B4C3870053E903 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E68AAFC115B4C3870053E903 /* Default.png */; };
+		E6BF5F8B15B535D70087F406 /* cork.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E6BF5F8A15B535D70087F406 /* cork.jpg */; };
+		E6BF5F8E15B537560087F406 /* metal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E6BF5F8D15B537560087F406 /* metal.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +71,8 @@
 		E678ACA715B3AB4300E27A15 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		E678ACB615B3C76B00E27A15 /* foodGenericHdcopy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = foodGenericHdcopy.png; sourceTree = "<group>"; };
 		E68AAFC115B4C3870053E903 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E6BF5F8A15B535D70087F406 /* cork.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cork.jpg; sourceTree = "<group>"; };
+		E6BF5F8D15B537560087F406 /* metal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = metal.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +123,8 @@
 		E6039CB315B266BB00F0EB36 /* OrderFood */ = {
 			isa = PBXGroup;
 			children = (
+				E6BF5F8D15B537560087F406 /* metal.jpg */,
+				E6BF5F8A15B535D70087F406 /* cork.jpg */,
 				E65D061E15B4E7170092BCE7 /* logo_sushi_club.png */,
 				E65D061C15B4E70C0092BCE7 /* logo_almacen.png */,
 				E65D061115B4E4BA0092BCE7 /* logo_animal.jpeg */,
@@ -246,6 +252,8 @@
 				E65D061B15B4E4BA0092BCE7 /* logo_sushi_pop.png in Resources */,
 				E65D061D15B4E70C0092BCE7 /* logo_almacen.png in Resources */,
 				E65D061F15B4E7180092BCE7 /* logo_sushi_club.png in Resources */,
+				E6BF5F8B15B535D70087F406 /* cork.jpg in Resources */,
+				E6BF5F8E15B537560087F406 /* metal.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
