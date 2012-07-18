@@ -10,11 +10,12 @@
 #import "DetailViewController.h"
 #import "FoodStore.h"
 
+
 @interface MasterViewController () {
     NSMutableArray *_objects;
 }
 @end
-
+ 
 @implementation MasterViewController
 
 @synthesize stores = _stores;
